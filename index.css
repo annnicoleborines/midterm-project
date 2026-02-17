@@ -162,8 +162,8 @@ header {
 
 
 section.content {
-  max-width: 900px;
-  margin: 20% auto;
+  max-width: 1000px;
+  margin: 100px auto;
   padding: 40px;
   background: #ffffff;
   border-radius: 16px;
@@ -186,10 +186,10 @@ p {
   margin-bottom: 20px;
 }
 
-.contact {
+section.contact {
   max-width: 1000px;
-  margin: 20px auto;
-  padding: 40px 20px;
+  margin: 100px auto;
+  padding: 40px;
   background: #ffffff;
   border-radius: 16px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
@@ -272,6 +272,19 @@ p {
   background-color: #1e3e1e;
 }
 
+section.cart {
+  max-width: 1000px;
+  margin: 100px auto;
+  padding: 40px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  line-height: 1.8;
+  font-size: 1.05rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 .footer {
   background-color: #2f4f2f;          
   color: #ffffff;                  
@@ -290,5 +303,5 @@ p {
 
 .footer p {
   margin: 0;
-
+  color: #ffffff;
 }
